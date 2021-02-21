@@ -1,3 +1,4 @@
+
 public class StateNim extends State {
 
     public int numCoins;
