@@ -56,7 +56,6 @@ public class GameNim extends Game {
         Search search = new Search(game);
         int depth = 12;
 
-        // int moves[] = {1, 2, 3};
         int move;
 
         StateNim currentState = (StateNim) game.currentState;
@@ -105,7 +104,6 @@ public class GameNim extends Game {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int move = Integer.parseInt(br.readLine());
         return move > 3 ? 3 : (move < 1 ? 1 : move);
-        // return (int) (Math.ceil(Math.random() * 10) % 3 + 1);
     }
 
 }
